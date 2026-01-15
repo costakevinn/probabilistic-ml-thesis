@@ -1,75 +1,94 @@
 # Probabilistic Machine Learning Thesis  
-**Neural Networks, Gaussian Processes and Bayesian Inference applied to real-world data**
+**Neural Networks, Gaussian Processes and Bayesian Inference for real-world data modeling**
 
-This repository contains my Bachelor's thesis in Physics, where I developed a complete **probabilistic machine learning pipeline** using **Neural Networks, Gaussian Processes and Bayesian Inference** to model, reconstruct and analyze **real observational data**.
+This repository presents my Bachelor's thesis, focused on building a **probabilistic machine learning pipeline** to model, reconstruct and analyze **real, noisy datasets** using **Neural Networks, Gaussian Processes and Bayesian inference**.
 
-Although the thesis document is written in Portuguese, all methods, results and figures follow international standards in **Machine Learning, Data Science and Statistical Modeling**.
+The project was fully implemented in **Python** and follows the same modeling, validation and uncertainty estimation workflows used in **machine learning engineering, data science and AI research**.
 
 ---
 
-## 📌 Project Overview
+## 🚀 Project Summary
 
-The goal of this project was to extract reliable information from **noisy, real-world data** using **modern machine learning and statistical inference techniques**.
+The objective of this project was to extract reliable patterns and parameters from **complex observational data** using **probabilistic machine learning models**.
 
-The project combines:
+The pipeline includes:
 
-- **Neural Networks** for nonlinear regression and data reconstruction  
-- **Gaussian Process Regression** for probabilistic modeling and uncertainty estimation  
-- **Bayesian Inference** to infer physical and statistical parameters  
+- **Neural Networks** for nonlinear regression  
+- **Gaussian Process Regression** for probabilistic predictions  
+- **Bayesian Inference** for parameter estimation  
 - **Markov Chain Monte Carlo (MCMC)** for posterior sampling  
 - **Uncertainty Quantification and Model Comparison**
 
-The methods were applied to real observational datasets (supernovae, quasars, galaxies and time-series measurements), but the core of the project is the **machine learning and inference pipeline**, which is directly applicable to any data-driven domain.
+Although the datasets come from astrophysical observations, the methodology is fully **domain-agnostic** and directly applicable to **finance, healthcare, industrial analytics, and any real-world data problem**.
 
 ---
 
-## 🧠 Methods and Techniques
+## 📊 Model Outputs
 
-This thesis includes the implementation and application of:
+### 🔹 Bayesian posterior distributions (MCMC)
 
-- Supervised learning with **Neural Networks**  
-- **Gaussian Processes** for probabilistic regression  
-- **Bayesian parameter estimation**  
-- **MCMC (Markov Chain Monte Carlo)**  
-- Likelihood-based modeling  
-- Uncertainty propagation and posterior analysis  
-- Model validation and comparison  
+Final parameter estimates and their uncertainties obtained via **Bayesian inference and MCMC**.
 
-All experiments were implemented in **Python** using scientific computing and machine learning libraries.
+![Posterior Distributions](distributions.png)
+
+---
+
+### 🔹 Neural Network regression
+
+Neural network predictions for a real observational dataset, learning a nonlinear mapping from data.
+
+![Neural Network Regression](nn.png)
+
+---
+
+### 🔹 Gaussian Process regression
+
+Gaussian Process predictions for different kernel hyperparameters, illustrating probabilistic forecasting and uncertainty-aware modeling.
+
+![Gaussian Process Regression](gp.png)
+
+---
+
+## 🧠 Techniques and Tools
+
+This project uses industry-relevant machine learning and data science techniques:
+
+- **Supervised Learning (Neural Networks)**
+- **Gaussian Process Regression**
+- **Bayesian Modeling**
+- **MCMC (Markov Chain Monte Carlo)**
+- **Probabilistic Regression**
+- **Uncertainty Quantification**
+- **Model Validation and Comparison**
+- **Python, NumPy, SciPy, ML libraries**
 
 ---
 
 ## 📄 Thesis Document
 
-The full thesis is available in this repository:
+The full thesis is available here:
 
 **`thesis.pdf`**
 
-It contains:
-- Mathematical and statistical foundations  
-- Model definitions  
-- Data description  
-- Experimental results and plots  
-- Bayesian inference and posterior analysis  
+It contains mathematical formulation, model definitions, datasets, experiments, and detailed analysis.
 
 ---
 
-## 🎯 Why this project is relevant
+## 🎯 Why this project matters for Machine Learning Engineering
 
-This work represents an end-to-end **Machine Learning and Statistical Inference workflow**, including:
+This work demonstrates the complete **ML lifecycle**:
 
-- Working with **real, noisy data**  
-- Defining probabilistic models  
-- Training and validating ML models  
+- Working with **noisy real-world data**  
+- Designing probabilistic models  
+- Training and evaluating ML models  
 - Quantifying prediction uncertainty  
-- Inferring parameters with Bayesian methods  
+- Interpreting results for decision making  
 
-These are the same challenges faced in **Data Science, Machine Learning Engineering, Quantitative Modeling and AI Research**.
+These are core skills required for **Machine Learning Engineers, Data Scientists and AI Engineers**.
 
 ---
 
-## 🧑‍💻 Author
+## 👤 Author
 
 **Kevin Mota da Costa**  
-Bachelor in Physics  
-Focus on Machine Learning, Bayesian Modeling and Data Analysis
+Machine Learning • Bayesian Modeling • Data Science
