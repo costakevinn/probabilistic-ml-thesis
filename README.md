@@ -69,6 +69,7 @@ This project uses industry-relevant machine learning and data science techniques
 The full thesis is available here:
 
 **`thesis.pdf`**
+*(Document written in Portuguese)*
 
 It contains mathematical formulation, model definitions, datasets, experiments, and detailed analysis.
 
