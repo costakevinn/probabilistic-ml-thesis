@@ -29,7 +29,7 @@ Although the datasets come from astrophysical observations, the methodology is f
 
 Final parameter estimates and their uncertainties obtained via **Bayesian inference and MCMC**.
 
-![Posterior Distributions](distributions.png)
+![Posterior Distributions](figures/distributions.png)
 
 ---
 
@@ -37,7 +37,7 @@ Final parameter estimates and their uncertainties obtained via **Bayesian infere
 
 Neural network predictions for a real observational dataset, learning a nonlinear mapping from data.
 
-![Neural Network Regression](nn.png)
+![Neural Network Regression](figures/nn.png)
 
 ---
 
@@ -45,7 +45,7 @@ Neural network predictions for a real observational dataset, learning a nonlinea
 
 Gaussian Process predictions for different kernel hyperparameters, illustrating probabilistic forecasting and uncertainty-aware modeling.
 
-![Gaussian Process Regression](gp.png)
+![Gaussian Process Regression](figures/gp.png)
 
 ---
 
