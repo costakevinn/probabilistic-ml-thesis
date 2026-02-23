@@ -1,4 +1,4 @@
-#🎓 Probabilistic Machine Learning Thesis
+# 🎓 Probabilistic Machine Learning Thesis
 
 **Neural Networks, Gaussian Processes and Bayesian Inference for Real-World Data Modeling**
 
