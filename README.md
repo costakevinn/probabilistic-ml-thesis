@@ -1,4 +1,4 @@
-# 🎓 Probabilistic Machine Learning Thesis
+#🎓 Probabilistic Machine Learning Thesis
 
 **Neural Networks, Gaussian Processes and Bayesian Inference for Real-World Data Modeling**
 
@@ -6,13 +6,13 @@ This repository contains my Bachelor's thesis, focused on designing and implemen
 
 The project integrates neural networks, Gaussian processes, Bayesian inference, and MCMC sampling within a unified statistical framework.
 
-Author: Kevin Mota da Costa
-Portfolio: [https://costakevinn.github.io](https://costakevinn.github.io)
-LinkedIn: [https://linkedin.com/in/SEUUSER](https://linkedin.com/in/SEUUSER)
+**Author:** Kevin Mota da Costa
+**Portfolio:** [https://costakevinn.github.io](https://costakevinn.github.io)
+**LinkedIn:** [https://linkedin.com/in/SEUUSER](https://linkedin.com/in/SEUUSER)
 
 ---
 
-## 🎯 Project Objective
+## 🎯 Project Purpose
 
 The objective of this work was to extract reliable patterns and parameter estimates from observational data under uncertainty.
 
@@ -24,13 +24,15 @@ The system was designed to:
 * Compare probabilistic models
 * Validate results using statistical diagnostics
 
-Although the dataset originates from astrophysical observations, the methodology is domain-agnostic and directly applicable to finance, healthcare, industrial analytics, and any real-world data problem involving uncertainty.
+Although the dataset originates from astrophysical observations, the methodology is domain-agnostic and directly applicable to finance, healthcare, industrial analytics, and other real-world data systems.
+
+This project represents a complete probabilistic machine learning lifecycle — from modeling to inference and validation.
 
 ---
 
 ## 🧠 Modeling Framework
 
-The thesis integrates multiple probabilistic approaches within a structured ML workflow:
+The thesis integrates multiple probabilistic approaches within a structured ML workflow.
 
 ### 1️⃣ Neural Networks
 
@@ -56,9 +58,9 @@ The thesis integrates multiple probabilistic approaches within a structured ML w
 
 * Posterior sampling
 * Convergence diagnostics
-* Uncertainty propagation across parameters
+* Uncertainty propagation
 
-Together, these components form a complete probabilistic machine learning pipeline.
+Together, these components form a unified probabilistic machine learning pipeline.
 
 ---
 
@@ -66,7 +68,7 @@ Together, these components form a complete probabilistic machine learning pipeli
 
 ### 🔹 Bayesian Posterior Distributions (MCMC)
 
-Posterior parameter estimates and uncertainty intervals obtained via Bayesian inference:
+Posterior parameter estimates and uncertainty intervals:
 
 ![Posterior Distributions](figures/distributions.png)
 
@@ -97,7 +99,7 @@ Kernel-based probabilistic forecasting with uncertainty bands:
 * MCMC sampling and diagnostics
 * Uncertainty quantification
 * Model validation and comparison
-* Interpretation of statistical outputs for decision-making
+* Interpretation of probabilistic outputs
 
 ---
 
@@ -107,11 +109,11 @@ Beyond theoretical modeling, this project demonstrates:
 
 * Structured experimentation workflow
 * Reproducible statistical analysis
-* Comparison between neural and Bayesian approaches
+* Comparison between neural and Bayesian paradigms
 * Numerical stability considerations
 * Clear separation between modeling, inference, and diagnostics
 
-This reflects principles used in real-world machine learning engineering and applied data science.
+These principles align with real-world Machine Learning Engineering practices.
 
 ---
 
@@ -170,7 +172,6 @@ This project is part of my Machine Learning portfolio:
 
 ---
 
-## 👤 Author
+## License
 
-Kevin Mota da Costa
-Machine Learning • Bayesian Modeling • Data Systems
+MIT License — see `LICENSE` for details.
