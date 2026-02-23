@@ -1,95 +1,176 @@
-# Probabilistic Machine Learning Thesis  
-**Neural Networks, Gaussian Processes and Bayesian Inference for real-world data modeling**
+# 🎓 Probabilistic Machine Learning Thesis
 
-This repository presents my Bachelor's thesis, focused on building a **probabilistic machine learning pipeline** to model, reconstruct and analyze **real, noisy datasets** using **Neural Networks, Gaussian Processes and Bayesian inference**.
+**Neural Networks, Gaussian Processes and Bayesian Inference for Real-World Data Modeling**
 
-The project was fully implemented in **Python** and follows the same modeling, validation and uncertainty estimation workflows used in **machine learning engineering, data science and AI research**.
+This repository contains my Bachelor's thesis, focused on designing and implementing a complete probabilistic machine learning pipeline for modeling complex, noisy real-world datasets.
+
+The project integrates neural networks, Gaussian processes, Bayesian inference, and MCMC sampling within a unified statistical framework.
+
+Author: Kevin Mota da Costa
+Portfolio: [https://costakevinn.github.io](https://costakevinn.github.io)
+LinkedIn: [https://linkedin.com/in/SEUUSER](https://linkedin.com/in/SEUUSER)
 
 ---
 
-## 🚀 Project Summary
+## 🎯 Project Objective
 
-The objective of this project was to extract reliable patterns and parameters from **complex observational data** using **probabilistic machine learning models**.
+The objective of this work was to extract reliable patterns and parameter estimates from observational data under uncertainty.
 
-The pipeline includes:
+The system was designed to:
 
-- **Neural Networks** for nonlinear regression  
-- **Gaussian Process Regression** for probabilistic predictions  
-- **Bayesian Inference** for parameter estimation  
-- **Markov Chain Monte Carlo (MCMC)** for posterior sampling  
-- **Uncertainty Quantification and Model Comparison**
+* Model nonlinear relationships
+* Quantify predictive uncertainty
+* Estimate posterior parameter distributions
+* Compare probabilistic models
+* Validate results using statistical diagnostics
 
-Although the datasets come from astrophysical observations, the methodology is fully **domain-agnostic** and directly applicable to **finance, healthcare, industrial analytics, and any real-world data problem**.
+Although the dataset originates from astrophysical observations, the methodology is domain-agnostic and directly applicable to finance, healthcare, industrial analytics, and any real-world data problem involving uncertainty.
+
+---
+
+## 🧠 Modeling Framework
+
+The thesis integrates multiple probabilistic approaches within a structured ML workflow:
+
+### 1️⃣ Neural Networks
+
+* Nonlinear regression modeling
+* Implemented using PyTorch and TensorFlow/Keras
+* Gradient-based optimization
+* Model validation and performance comparison
+
+### 2️⃣ Gaussian Process Regression
+
+* Non-parametric Bayesian regression
+* Kernel-based modeling
+* Predictive mean and confidence intervals
+* Hyperparameter tuning and kernel comparison
+
+### 3️⃣ Bayesian Inference
+
+* Likelihood-based parameter estimation
+* Prior specification and posterior updating
+* Statistical model comparison
+
+### 4️⃣ MCMC (Markov Chain Monte Carlo)
+
+* Posterior sampling
+* Convergence diagnostics
+* Uncertainty propagation across parameters
+
+Together, these components form a complete probabilistic machine learning pipeline.
 
 ---
 
 ## 📊 Model Outputs
 
-### 🔹 Bayesian posterior distributions (MCMC)
+### 🔹 Bayesian Posterior Distributions (MCMC)
 
-Final parameter estimates and their uncertainties obtained via **Bayesian inference and MCMC**.
+Posterior parameter estimates and uncertainty intervals obtained via Bayesian inference:
 
 ![Posterior Distributions](figures/distributions.png)
 
 ---
 
-### 🔹 Neural Network regression
+### 🔹 Neural Network Regression
 
-Neural network predictions for a real observational dataset, learning a nonlinear mapping from data.
+Nonlinear regression applied to real observational data:
 
 ![Neural Network Regression](figures/nn.png)
 
 ---
 
-### 🔹 Gaussian Process regression
+### 🔹 Gaussian Process Regression
 
-Gaussian Process predictions for different kernel hyperparameters, illustrating probabilistic forecasting and uncertainty-aware modeling.
+Kernel-based probabilistic forecasting with uncertainty bands:
 
 ![Gaussian Process Regression](figures/gp.png)
 
 ---
 
-## 🧠 Techniques and Tools
+## 🔬 Capabilities Demonstrated
 
-This project uses industry-relevant machine learning and data science techniques:
+* Modeling noisy real-world datasets
+* Designing probabilistic regression systems
+* Likelihood-based model training
+* Bayesian posterior computation
+* MCMC sampling and diagnostics
+* Uncertainty quantification
+* Model validation and comparison
+* Interpretation of statistical outputs for decision-making
 
-- **Supervised Learning (Neural Networks)**
-- **Gaussian Process Regression**
-- **Bayesian Modeling**
-- **MCMC (Markov Chain Monte Carlo)**
-- **Probabilistic Regression**
-- **Uncertainty Quantification**
-- **Model Validation and Comparison**
-- **Python, NumPy, SciPy, ML libraries**
+---
+
+## 📈 Engineering Perspective
+
+Beyond theoretical modeling, this project demonstrates:
+
+* Structured experimentation workflow
+* Reproducible statistical analysis
+* Comparison between neural and Bayesian approaches
+* Numerical stability considerations
+* Clear separation between modeling, inference, and diagnostics
+
+This reflects principles used in real-world machine learning engineering and applied data science.
+
+---
+
+## 🛠 Tech Stack
+
+### Programming
+
+Python
+
+### Scientific Computing
+
+* NumPy
+* SciPy
+* Pandas
+
+### Machine Learning
+
+* PyTorch
+* TensorFlow
+* Keras
+* Scikit-learn
+
+### Visualization
+
+* Matplotlib
+
+### Probabilistic Methods
+
+* Bayesian inference
+* MCMC sampling
+* Gaussian Processes
 
 ---
 
 ## 📄 Thesis Document
 
-The full thesis is available here:
+The full thesis is available in:
 
-**`thesis.pdf`**
-*(Document written in Portuguese)*
+`thesis.pdf`
+(Document written in Portuguese)
 
-It contains mathematical formulation, model definitions, datasets, experiments, and detailed analysis.
+It contains:
+
+* Mathematical formulation
+* Model definitions
+* Dataset description
+* Experimental results
+* Detailed statistical analysis
 
 ---
 
-## 🎯 Why this project matters for Machine Learning Engineering
+## 🌐 Portfolio
 
-This work demonstrates the complete **ML lifecycle**:
-
-- Working with **noisy real-world data**  
-- Designing probabilistic models  
-- Training and evaluating ML models  
-- Quantifying prediction uncertainty  
-- Interpreting results for decision making  
-
-These are core skills required for **Machine Learning Engineers, Data Scientists and AI Engineers**.
+This project is part of my Machine Learning portfolio:
+👉 [https://costakevinn.github.io](https://costakevinn.github.io)
 
 ---
 
 ## 👤 Author
 
-**Kevin Mota da Costa**  
-Machine Learning • Bayesian Modeling • Data Science
+Kevin Mota da Costa
+Machine Learning • Bayesian Modeling • Data Systems
