@@ -7,8 +7,10 @@ This repository contains my Bachelor's thesis, focused on designing and implemen
 The project integrates neural networks, Gaussian processes, Bayesian inference, and MCMC sampling within a unified statistical framework.
 
 **Author:** Kevin Mota da Costa
+
 **Portfolio:** [https://costakevinn.github.io](https://costakevinn.github.io)
-**LinkedIn:** [https://linkedin.com/in/SEUUSER](https://linkedin.com/in/SEUUSER)
+
+**LinkedIn:** [https://linkedin.com/in/costakevinnnR](https://linkedin.com/in/costakevinnn)
 
 ---
 
